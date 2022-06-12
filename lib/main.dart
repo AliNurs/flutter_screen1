@@ -117,10 +117,13 @@ class MyApp extends StatelessWidget {
                   padding: EdgeInsets.symmetric(vertical: 5, horizontal: 18),
                   child: Text(
                     "196/2*2",
-                    style: TextStyle(fontSize: 19, fontWeight: FontWeight.w400),
+                    style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 19,
+                        fontWeight: FontWeight.w500),
                   ),
                   decoration: BoxDecoration(
-                      color: Colors.grey.shade500,
+                      color: Colors.grey.shade600,
                       borderRadius: BorderRadius.circular(25)),
                 )
               ],
